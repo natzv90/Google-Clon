@@ -57,17 +57,19 @@ nav .nav-right-section .menu{
 }
 
 nav .nav-right-section  .imagen{
-    width: 30px;
     /*redondear imagen*/
     border-radius: 50%;
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
 }
 
 
 /*************************************/
 /*******************************/
-/*Main*/
+/*Main/Buscador*/
 main{
-    margin-top: 50px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -108,7 +110,8 @@ main .main-input input{
 }
 
 main .main-input-container:hover{
-    box-shadow: 0 1px 6px 1px #bfc1c2;
+    box-shadow: 0 1px 6px 1px #20212447;
+    border-color: #dfe1e500;
 }
 
 main .main-input .search-icon{
